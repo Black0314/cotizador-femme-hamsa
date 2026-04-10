@@ -1,0 +1,20 @@
+@import "tailwindcss";
+/* Reset and base styles */
+
+:root {
+  --principal-color: #d6bde5;
+}
+.logo img {
+  width: 4rem;
+}
+body {
+  background-color: #dbc4f066;
+}
+select option:hover {
+  background: #9e4fcc;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
